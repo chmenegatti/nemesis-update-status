@@ -1,0 +1,25 @@
+{
+  "name": "nemesis-update-status",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cesar Oliveira <cesar.oliveira@totvs.com.br>",
+  "description": "Nemesis Update Status",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore 'node_modules/*' --ignore'package-lock.json' --ignore 'package.json'",
+    "test": "jest --coverage --verbose"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "mariadb": "^3.2.0",
+    "mysql": "^2.18.1",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1"
+  }
+}
